@@ -1,7 +1,7 @@
 # Makefile for compiling Cube 1 with Emscripten
 
 # Compiler settings
-EMCC = EMCC
+EMCC = emcc
 CXXFLAGS = -O2 -s USE_SDL=2 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1
 INCLUDES = -Iinclude
 SOURCES = src/main.cpp src/cube1.cpp
